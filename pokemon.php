@@ -11,6 +11,11 @@
         <div class = "content">
             <header>
                 <h1>Buscar pokemos</h1>
+                <nav>
+                <ul>
+                    <li><a href = "index.php">Inicio</a></li>
+                    <li><a href = "personas.php">Buscador de personas</a></li>
+                </ul>
             </header>
             <form action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" method="get">
             <label for="id">Introduzca el id del pokemon (1 - 898): </label>

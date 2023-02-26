@@ -13,6 +13,13 @@ header{
     margin-bottom: 5rem;
     text-align: center;
 }
+.content nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
 
 nav ul {
     list-style-type: none;
@@ -38,12 +45,6 @@ li a:hover {
     background-color: #508991;
 }
 
-@media (min-width: 700px) {
-    header{
-        margin-bottom: 0;
-    }
-}
-
 .content{
     display: flex;
     flex-direction: column;
@@ -57,18 +58,6 @@ li a:hover {
     column-gap: 1rem;
     row-gap: 6rem;
     justify-items: center;
-}
-
-@media (min-width: 700px) {
-    .people-area{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1000px) {
-    .people-area{
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 
 .person{
@@ -102,11 +91,4 @@ footer{
     padding: 1rem;
     text-align: center;
     margin-top: 5rem;
-}
-
-@media (min-width: 800px) {
-    footer{
-        margin-top: 0px;
-    }
-    
 }
